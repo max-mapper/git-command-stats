@@ -1,0 +1,27 @@
+{
+  "name": "git-command-stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "git-command-stats": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binary-split": "^0.1.2",
+    "expand-home-dir": "0.0.2",
+    "sorto": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/git-command-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/git-command-stats/issues"
+  },
+  "homepage": "https://github.com/maxogden/git-command-stats"
+}
