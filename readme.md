@@ -5,6 +5,7 @@
 ### usage
 
 ```
+# protip export HISTSIZE=9999999 in your .bashrc/.bash_profile
 $ npm install git-command-stats -g
 $ git-command-stats | tail -r
 { status: 18718 }
