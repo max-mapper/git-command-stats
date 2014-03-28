@@ -14,8 +14,10 @@ grep.stdout.pipe(bsplit)
 bsplit.on('data', function(ch) {
   var parts = ch.toString().split(' ')
   var verb = parts[1]
-  if (!freq[verb]) freq[verb] = 1
-  else freq[verb]++
+  if (verb && verb.length > 0) {
+    if (!freq[verb]) freq[verb] = 1
+    else freq[verb]++
+  }
 }).on('end', function() {
   var items = sorto.byval(freq)
   items.map(function(i) { console.log(i) })

@@ -7,6 +7,7 @@
 ```
 $ npm install git-command-stats -g
 $ git-command-stats | tail -r
+{ status: 18718 }
 { add: 4855 }
 { push: 3759 }
 { commit: 3642 }

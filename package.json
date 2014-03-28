@@ -1,15 +1,12 @@
 {
   "name": "git-command-stats",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "bin": {
     "git-command-stats": "index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "max ogden",
+  "license": "BSD",
   "dependencies": {
     "binary-split": "^0.1.2",
     "expand-home-dir": "0.0.2",
